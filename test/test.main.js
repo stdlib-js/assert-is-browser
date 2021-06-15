@@ -53,8 +53,8 @@ tape( 'the function returns `true` if the runtime is a web browser', function te
 	Global.window = win;
 
 	isBrowser = proxyquire( './../lib/main.js', {
-		'@stdlib/utils/global': getGlobal,
-		'@stdlib/assert/is-node': false,
+		'@stdlib/utils-global': getGlobal,
+		'@stdlib/assert-is-node': false,
 		'./global_scope.js': true
 	});
 
@@ -74,8 +74,8 @@ tape( 'the function returns `false` if the runtime is not a web browser (`window
 	Global.window = win;
 
 	isBrowser = proxyquire( './../lib/main.js', {
-		'@stdlib/utils/global': getGlobal,
-		'@stdlib/assert/is-node': false,
+		'@stdlib/utils-global': getGlobal,
+		'@stdlib/assert-is-node': false,
 		'./global_scope.js': true
 	});
 
@@ -95,8 +95,8 @@ tape( 'the function returns `false` if the runtime is not a web browser (`window
 	Global.window = win;
 
 	isBrowser = proxyquire( './../lib/main.js', {
-		'@stdlib/utils/global': getGlobal,
-		'@stdlib/assert/is-node': false,
+		'@stdlib/utils-global': getGlobal,
+		'@stdlib/assert-is-node': false,
 		'./global_scope.js': true
 	});
 
@@ -116,8 +116,8 @@ tape( 'the function returns `false` if the runtime is not a web browser (`window
 	Global.window = win;
 
 	isBrowser = proxyquire( './../lib/main.js', {
-		'@stdlib/utils/global': getGlobal,
-		'@stdlib/assert/is-node': false,
+		'@stdlib/utils-global': getGlobal,
+		'@stdlib/assert-is-node': false,
 		'./global_scope.js': false
 	});
 
