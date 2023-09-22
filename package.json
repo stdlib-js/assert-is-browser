@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/assert-is-browser",
-  "version": "0.0.8",
+  "version": "0.1.0",
   "description": "Check if the runtime is a web browser.",
   "license": "Apache-2.0",
   "author": {
@@ -36,8 +36,8 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/assert-is-node": "^0.0.7",
-    "@stdlib/utils-global": "^0.0.7"
+    "@stdlib/assert-is-node": "^0.1.0",
+    "@stdlib/utils-global": "^0.1.0"
   },
   "devDependencies": {
     "proxyquire": "^2.0.0",
