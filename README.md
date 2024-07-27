@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import IS_BROWSER from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-browser@deno/mod.js';
+import IS_BROWSER from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-browser@v0.2.2-deno/mod.js';
 ```
 
 #### IS_BROWSER
@@ -75,7 +75,7 @@ var bool = IS_BROWSER;
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import IS_BROWSER from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-browser@deno/mod.js';
+import IS_BROWSER from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-browser@v0.2.2-deno/mod.js';
 
 console.log( IS_BROWSER );
 // => <boolean>
