@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/assert-is-browser",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Check if the runtime is a web browser.",
   "license": "Apache-2.0",
   "author": {
@@ -37,7 +37,7 @@
   },
   "dependencies": {
     "@stdlib/assert-is-node": "^0.2.1",
-    "@stdlib/utils-global": "^0.2.1"
+    "@stdlib/utils-global": "^0.2.2"
   },
   "devDependencies": {
     "proxyquire": "^2.0.0",
