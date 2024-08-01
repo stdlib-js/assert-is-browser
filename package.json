@@ -36,7 +36,7 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/assert-is-node": "^0.2.1",
+    "@stdlib/assert-is-node": "^0.2.2",
     "@stdlib/utils-global": "^0.2.2"
   },
   "devDependencies": {
