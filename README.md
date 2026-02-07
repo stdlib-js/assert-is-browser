@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import IS_BROWSER from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-browser@esm/index.mjs';
+import IS_BROWSER from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-browser@v0.2.3-esm/index.mjs';
 ```
 
 #### IS_BROWSER
@@ -80,7 +80,7 @@ var bool = IS_BROWSER;
 <body>
 <script type="module">
 
-import IS_BROWSER from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-browser@esm/index.mjs';
+import IS_BROWSER from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-browser@v0.2.3-esm/index.mjs';
 
 console.log( IS_BROWSER );
 // => <boolean>
